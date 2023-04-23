@@ -102,33 +102,33 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-li > * {
+li{
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+input[type="checkbox"] {
     margin: 0 10px;
 }
-li > label {
+label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-li > input[type="text"] {
+input[type="text"] {
     width: 226px
 }
-button.delete img {
+button.delete-task img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.delete-task img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
